@@ -1,24 +1,27 @@
-Tip Time - Solution Code
-=================================
+# Tip Calculator App
 
-Starter code for the [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course): Tip Time app.
+This project is a simple and interactive tip calculator built using **Jetpack Compose** in **Kotlin**. It allows users to enter a bill amount and a tip percentage, choose whether to round up the tip, and view the calculated result instantly.
 
+## Context
 
-Introduction
-------------
-The Tip Time app contains various UI elements for calculating a tip,
-teaching about user input, and State in Compose.
+This application is developed as part of the **Google Android Basics with Kotlin** course. It is designed to demonstrate key concepts such as:
 
+- State management with `remember` and `mutableStateOf`
+- Declarative UI with Jetpack Compose
+- Input handling and data formatting
+- Theme customization using Material 3
 
-Pre-requisites
---------------
-* Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
+## Features
 
+- Enter bill amount and tip percentage
+- Toggle tip rounding on or off
+- Real-time tip calculation with currency formatting
+- Clean and responsive Compose-based UI
 
-Getting Started
----------------
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+## Tech Stack
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Android Studio
+
